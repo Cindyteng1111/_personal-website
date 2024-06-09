@@ -1,0 +1,155 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* navbar */
+/* mobile toggle */
+.navbar-default .navbar-toggle {
+  border-color: #C3D2D5;
+}
+.navbar-default .navbar-toggle .icon-bar{
+  background-color: #FCF7F8;
+}
+.navbar-default .navbar-toggle:hover {
+  background-color: #C3D2D5;
+}
+.navbar-default .navbar-toggle:focus {
+  background-color: #C3D2D5;
+}
+.navbar-default .navbar-toggle:focus .icon-bar {
+  background-color: #FCF7F8;
+}
+/*navbar style*/
+.navbar-default {
+  background-color: #C3D2D5;
+}
+/*links within navbar*/
+.navbar-default .navbar-nav li {
+  display: inline;
+  width: 9em;
+  text-align: center;
+}
+.navbar-default .navbar-nav li a {
+  display: block;
+  color: #FCF7F8;
+  font-size: 1.5em;
+  width: 100%;
+}
+.navbar-default .navbar-nav li a:focus {
+  color: #FCF7F8;
+}
+.navbar-default .navbar-nav li a:hover {
+  text-decoration: none;
+  background-color: #FCF7F8;
+  color: #C3D2D5;
+}
+
+
+/* general */
+body {
+  margin: 4em 0 1em 0;
+  padding-bottom: 4em;
+  background-color: #C9B6BE;
+  position: relative;
+  min-height: 100%;
+  color: #646D70;
+  font-family: Hind;
+}
+h1 {
+  font-size: 3em;
+  font-weight: bold;
+  color: #9B9B93;
+  text-align: center;
+  font-family: Marcellus;
+}
+.style1 {
+  border-top: .28em solid #9B9B93;
+  border-radius: .1em;
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  margin-left: auto;
+  margin-right: auto;
+}
+.container-style1 {
+  width: 90%;
+  max-width: 57.5em;
+  background-color: #FCF7F8;
+  padding: .9em 1.25em 1.8em 1.25em;
+  margin: 1.5em auto 1.5em auto;
+  border: .17px solid #ffffff;
+}
+
+
+/* about section */
+#about-text {
+  max-width: 95%;
+}
+#picture {
+  width: 75%;
+  max-width: 250px;
+  border-radius: 50%;
+}
+h2 {
+  text-align: center;
+  font-size: 1.5em;
+  font-family: Lora;
+}
+
+/* skills section */
+#skills-text {
+  max-width: 95%;
+}
+h5 {
+  font-size: 1.1em;
+}
+.style2 {
+  border-top: .14em solid #D0D0D0;
+  border-radius: .1em;
+  width: 14em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+h3 {
+  text-align: center;
+  font-family: Marcellus;
+  font-size: 1.2em;
+}
+
+/* work section */
+h4 {
+  text-align: center;
+  font-size: 1.2em;
+}
+
+
+/* social media/contact section */
+.logo-resize {
+  max-height: 35px;
+  max-width: 35px;
+}
+#social-media {
+  width: 60%;
+}
+
+
+/* footer */
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 2em 0 0 0;
+  text-align: center;
+  font-size: .75em;
+}
